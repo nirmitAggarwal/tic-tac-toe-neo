@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="game-container">
+    <div class="container">
         <h1>Tic Tac Toe</h1>
-        <div class="grid">
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
+        <p class="instructions">Click on any cell to make your move. First player to get 3 in a row wins!</p>
+        <div class="game-container">
+            <div class="grid">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+            <button id="restartButton">Restart</button>
+            <div id="message"></div>
         </div>
-        <button id="restartButton">Restart</button>
-        <div id="message"></div>
     </div>
     <script src="script.js"></script>
 </body>

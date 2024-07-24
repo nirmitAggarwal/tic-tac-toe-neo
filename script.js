@@ -50,8 +50,8 @@ function checkWin() {
     const [a, b, c] = pattern;
     return (
       cells[a].classList.contains(currentPlayer) &&
-      cells[a].classList.contains(cells[b].classList[1]) &&
-      cells[a].classList.contains(cells[c].classList[1])
+      cells[b].classList.contains(currentPlayer) &&
+      cells[c].classList.contains(currentPlayer)
     );
   });
 }
